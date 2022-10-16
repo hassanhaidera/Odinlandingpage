@@ -105,3 +105,22 @@ h2{
     height: 150px;
     border: 3px solid #3882f6;
 }
+.qoute{
+    background: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:10% ;
+    flex-direction: column;
+
+}
+.qoute p {
+    font-size: 36px;
+    font-style: italic;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.auth{
+    display: flex;
+    align-self: flex-end;
+}
