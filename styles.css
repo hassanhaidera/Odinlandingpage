@@ -124,3 +124,34 @@ h2{
     display: flex;
     align-self: flex-end;
 }
+.callcontain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
+
+.Calltoaction{
+    display: flex;
+    background: #3882f6;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    padding: 10px;
+    margin: 100px;
+}
+
+.calltoactioncontain{
+    display: flex;
+    flex-flow: column;
+    gap: 0px;
+}
+
+.callcontain button{
+    display: flex;
+   margin-top: 50px;
+   width: 100px;
+   margin-left: 20px;
+   border: #e5e7eb solid;
+   color: #e5e7eb;
+}
