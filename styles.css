@@ -20,6 +20,7 @@ a{
     justify-content: space-around;
     align-items: center;
     
+    
 }
 .header ul{
     list-style-type: none;
@@ -28,4 +29,49 @@ a{
     font-size: 9px;
     color: #e5e7eb;
     gap: 10;
+}
+.maincontain{
+    background: #1f2837;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:10% ;
+}
+.maintext{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    height: 35%;
+    background: #1f2837;
+
+}
+#hero{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    
+    margin-bottom: 2px;
+}
+#filler{
+    font-size: 18px;
+    
+    color: #e5e7eb;;
+    
+}
+button{
+    background-color: #3882f6;
+    font-size: 18px;
+    border-radius: 8px;
+    border: #3882f6;
+    padding: 9px;
+    display: flex;
+    align-self: flex-start;
+}
+.implaceholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #515050;
+    width: 35%;
+    height: 300px;
 }
